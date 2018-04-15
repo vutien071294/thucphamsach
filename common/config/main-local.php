@@ -1,20 +1,20 @@
 <?php
 return [
     'components' => [
-        // 'db' => [
-        //     'class' => 'yii\db\Connection',
-        //     'dsn' => 'mysql:host=42.112.28.129;dbname=hd_rada_2',
-        //     'username' => 'thuyvvhd',
-        //     'password' => 'thuyvvhd',
-        //     'charset' => 'utf8',
-        // ],
-        'db' => [
-            'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=asaco',
-            'username' => 'root',
-            'password' => '',
-            'charset' => 'utf8',
-        ],
+         'db' => [
+             'class' => 'yii\db\Connection',
+             'dsn' => 'mysql:host=42.112.28.129;dbname=hd_rada_2',
+             'username' => 'thuyvvhd',
+             'password' => 'thuyvvhd',
+             'charset' => 'utf8',
+         ],
+//        'db' => [
+//            'class' => 'yii\db\Connection',
+//            'dsn' => 'mysql:host=localhost;dbname=asaco',
+//            'username' => 'root',
+//            'password' => '',
+//            'charset' => 'utf8',
+//        ],
         // 'db' => [
         //     'class' => 'yii\db\Connection',
         //     'dsn' => 'mysql:host=localhost;dbname=asaconet_asaco',
