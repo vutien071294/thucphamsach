@@ -36,16 +36,16 @@ CKEDITOR.editorConfig = function( config ) {
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
 
-	config.filebrowserBrowseUrl = 'http://localhost/asaco/admin/dist/ckfinder/ckfinder.html';
+	config.filebrowserBrowseUrl = 'http://localhost/thucphamsach/admin/dist/ckfinder/ckfinder.html';
  
-	config.filebrowserImageBrowseUrl = 'http://localhost/asaco/admin/dist/ckfinder/ckfinder.html?type=Images';
+	config.filebrowserImageBrowseUrl = 'http://localhost/thucphamsach/admin/dist/ckfinder/ckfinder.html?type=Images';
 	
-	// config.filebrowserFlashBrowseUrl = 'http://localhost/asaco/public/ckfinder/ckfinder.html?type=Flash';
+	// config.filebrowserFlashBrowseUrl = 'http://localhost/thucphamsach/public/ckfinder/ckfinder.html?type=Flash';
 	
-	// config.filebrowserUploadUrl = 'http://localhost/asaco/public/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files';
+	// config.filebrowserUploadUrl = 'http://localhost/thucphamsach/public/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files';
 	
-	config.filebrowserImageUploadUrl = 'http://localhost/asaco/admin/dist/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images';
+	config.filebrowserImageUploadUrl = 'http://localhost/thucphamsach/admin/dist/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images';
 	
-	// config.filebrowserFlashUploadUrl = 'http://localhost/asaco/public/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash';
+	// config.filebrowserFlashUploadUrl = 'http://localhost/thucphamsach/public/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash';
 
 };
