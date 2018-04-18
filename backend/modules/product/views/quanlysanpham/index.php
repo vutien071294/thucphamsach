@@ -48,7 +48,7 @@ $base_url = $components->Base_url();
 
             [
                 'attribute' => 'cate_id',
-                'header'=>'Sản phẩm',
+                'header'=>'Loại sản phẩm',
                 'value' => 'dmsanpham.title',
                 'contentOptions' => ['class'=>'word-wrap-new', 'style'=>'width:20%;',],
             ],

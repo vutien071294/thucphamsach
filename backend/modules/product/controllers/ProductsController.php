@@ -71,7 +71,6 @@ class ProductsController extends Controller
      */
     public function actionCreate()
     {
-        $components = new ComponentBase();
         $base_url = $components->Base_url();
 
         $model = new Products();
