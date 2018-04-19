@@ -51,9 +51,9 @@ $base_url_frontend = $components->Base_url_images();
         <!-- Logo -->
         <a href="<?= $base_url ?>" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>A</b>SS</span>
+          <span class="logo-mini"><b>H</b>T</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>ASACO</b></span>
+          <span class="logo-lg"><b>HT-Admin</b></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -66,7 +66,7 @@ $base_url_frontend = $components->Base_url_images();
             <ul class="nav navbar-nav">
               <!-- User Account: style can be found in dropdown.less -->
               <li class="goto_home" > 
-                <a href="<?= $base_url_frontend ?>" >
+                <a target="blank" href="<?= $base_url_frontend ?>" >
                     Đến trang chủ
                 </a>
             </li>
