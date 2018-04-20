@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\modules\product\models\Product_type */
 
-$this->title = 'Thêm mới sản phẩm';
+$this->title = 'Thêm mới loại sản phẩm';
 $this->params['breadcrumbs'][] = ['label' => 'Product Types', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

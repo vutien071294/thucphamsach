@@ -89,7 +89,7 @@ class ProductController extends Controller
     
      public function actionDetail($prm = '')
     {
-        $this->layout = 'main';
+        // $this->layout = 'main';
         $dataProduct = Product::findOne($prm);  
         return $this->render('detail', [
             'dataProduct' => $dataProduct,
